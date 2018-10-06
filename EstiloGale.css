@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	font-family:algerian;
+	margin:2px;
+	background:black;
+}
+
+h2{
+	Color:white;
+	text-align:center;
+	border:1px solid black;
+	background:#FF0000;
+	border:4px solid #FF0033  ;
+}
+
+h1{
+	text-align:center;
+	color:white;
+}
+
+.titulo1{
+      text-align:left;
+      border:3px solid white;	
+	  font-family:Lucida Calligraphy;
+	  background:#FF0000;
+	  border-radius:30px;
+      width:130px;
+	  height:40px;
+      margin:3px 3px;	
+      text-decoration:none;
+      display: inline-block;	  
+}
+.titulo1:hover{
+	background:black;
+	-webkit-transition:all 500ms ease;
+	transition:all 500ms ease;;
+}
+
+
+.galeria{
+	width:90%;
+	margin:auto;
+	list-style:none;
+	padding:20px;
+	box-sizing:border-box;
+	
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.galeria li{
+	margin:5px;
+	
+}
+
+
+.galeria img{
+	width:257px;
+	height:257px;
+	border:4px solid White;
+}
+
+
+#bb:hover{
+	-webkit-transition:1.5s;
+	-webkit-transform:rotate(360deg);
+}
+#pp:hover{
+	-webkit-transition:1.5s;
+	-webkit-transform:rotate(360deg);
+}
+#gg:hover{
+	-webkit-transition:1.5s;
+	-webkit-transform:rotate(270deg);
+}
+
+#bp:hover{
+	-webkit-transition:1.5s;
+	-webkit-transform:rotate(90deg);
+}
